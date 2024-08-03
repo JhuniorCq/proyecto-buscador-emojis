@@ -1,0 +1,9 @@
+.boxForm {
+    width: 100%;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+}
