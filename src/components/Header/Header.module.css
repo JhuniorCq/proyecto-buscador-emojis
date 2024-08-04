@@ -1,7 +1,27 @@
 .header {
-    border: 1px solid red;
     width: 100%;
-    height: 100px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    background-color: rgb(154, 255, 194);
+}
+
+.titulo {
+    color: rgb(47, 47, 62);
+    font-size: 2.2rem;
+    font-style: italic;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .4);
     text-align: center;
-    align-content: center;
+}
+
+.emoji {
+    font-style: normal;
+}
+
+.parrafo {
+    font-size: 1.1rem;
+    color: rgb(47, 47, 62);
 }

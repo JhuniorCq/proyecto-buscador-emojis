@@ -1,5 +1,5 @@
 .boxItem {
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     width: 210px;
     /* width: 15%; */
     height: 200px;
@@ -9,13 +9,34 @@
     justify-content: center;
     gap: 20px;
     border-radius: 7px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    position: relative;
+    padding: 15px;
 }
 
 .emoji {
     font-size: 3.5rem;
     cursor: pointer;
+    transition: transform .3s ease-in-out;
+}
+
+.emoji:hover {
+    transform: translateX(10px);
 }
 
 .nameEmoji {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.messageCopy {
+    position: absolute;
+    background-color: rgb(40, 173, 40);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
 }

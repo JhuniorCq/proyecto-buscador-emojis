@@ -1,9 +1,70 @@
-.boxForm {
+.form {
     width: 100%;
     display: flex;
-    background-color: red;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    height: 60px;
+    height: 80px;
+    margin-top: 40px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.input {
+    outline: none;
+    min-width: 250px;
+    height: 37px;
+    padding: 0 12px;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 5px;
+}
+
+.buttonSearch {
+    background-color: orange;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color .2s ease-in-out;
+}
+
+.buttonSearch:hover {
+    background-color: rgb(255, 150, 12);
+}
+
+.iconSearch {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.buttonAll {
+    width: 140px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(32, 92, 255);
+    color: white;
+    cursor: pointer;
+    transition: background-color .2s ease-in-out;
+}
+
+.buttonAll:hover {
+    background-color: rgb(10, 75, 255);
+}
+
+.messageAlert {
+    background-color: rgb(250, 50, 50);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: -25px;
+    padding: 8px 14px;
+    user-select: none;
+    font-size: .9rem;
 }

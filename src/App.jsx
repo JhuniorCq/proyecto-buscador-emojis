@@ -8,6 +8,7 @@ import { Results } from './components/Results/Result';
 function App() {
 
   const [emojiValue, setEmojiValue] = useState("");
+  
 
   return (
     <>
