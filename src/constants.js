@@ -1,0 +1,1 @@
+export const NUMBER_EMOJIS_SECTION = 24;
