@@ -40,7 +40,7 @@ export const Form = ({ setEmojiValue, setMinIndex, setMaxIndex }) => {
         className={styles.input}
         onChange={handleInput}
         type="text"
-        placeholder="Ingrese un emoji"
+        placeholder="Realice su búsqueda en inglés"
       />
       <button className={styles.buttonSearch}>
         <IoSearch className={styles.iconSearch} />
